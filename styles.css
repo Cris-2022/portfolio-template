@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&display=swap');
 
 :root {
-  --primary-color: #3282B8;
-  --primary-color-dark: #0F4C75;
+  
+  --primary-color: #32b8ad;
+  --primary-color-dark: #0f6e75;
   --accent-color: #FFF8F0;
 }
 
@@ -49,7 +50,7 @@ body {
   color: var(--accent-color);
   font-size: 18px;
   letter-spacing: 2px;
-  transition: all 1s;
+  transition: all 0.8s;
 }
 
 .logo {
@@ -82,17 +83,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row-reverse;
   background-color: var(--accent-color);
 }
 
 .avatar-container img {
-  height: 700px;
+  height: 550px;
   width: auto;
 }
 
 .avatar-container h3 {
-  margin: 0;
+  margin: 1cm;
 }
 
 h1 {
@@ -113,7 +114,7 @@ h1 {
 .socials-icon {
   font-size: 30px;
   text-decoration: none;
-  margin-right: 15px;
+  margin-right: 13px;
   color: var(--accent-color);
 }
 
@@ -141,7 +142,7 @@ h1 {
 }
 
 .project-list li {
-  margin-bottom: 30px;
+  margin-bottom: 3px;
 }
 
 .project-link {
@@ -201,7 +202,7 @@ footer {
   justify-content: flex-end;
   background-color: var(--primary-color-dark);
   color: var(--accent-color);
-  padding: 20px;
+  padding: 0.2px;
 }
 
 .footer-section-container {
