@@ -219,3 +219,7 @@ footer {
   color: var(--accent-color);
   font-size: 30px;
 }
+
+.tech-icons-container {
+  display: flex;
+}
